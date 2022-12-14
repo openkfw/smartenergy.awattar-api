@@ -1,0 +1,1 @@
+"""Electricity Maps API library."""
