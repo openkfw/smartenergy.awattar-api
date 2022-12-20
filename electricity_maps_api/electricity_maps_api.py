@@ -9,6 +9,7 @@ import requests
 from .validations import validate_empty_string
 
 
+# pylint: disable=too-few-public-methods
 class ElectricityMapApi:
     """
     Class providing methods for getting CO2 forecast for a zone.
@@ -30,7 +31,7 @@ class ElectricityMapApi:
                     url,
                     headers=headers,
                     timeout=self.timeout)
-            
+
             status = status_request.json()
             return status
         except (
