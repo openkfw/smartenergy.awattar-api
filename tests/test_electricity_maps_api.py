@@ -5,8 +5,16 @@ import pytest
 from electricity_maps_api.electricity_maps_api import ElectricityMapApi
 
 ELECTRICITY_MAPS_RESPONSE_DE = {
-
+    "zone": "DE",
+    "forecast": [
+        {"carbonIntensity": 600, "datetime": "2022-12-14T15:00:00.000Z"},
+        {"carbonIntensity": 610, "datetime": "2022-12-14T16:00:00.000Z"},
+        {"carbonIntensity": 625, "datetime": "2022-12-14T17:00:00.000Z"},
+        {"carbonIntensity": 640, "datetime": "2022-12-14T18:00:00.000Z"},
+    ],
+    "updatedAt": "2022-12-14T14:51:00.960Z",
 }
+
 
 ELECTRICITY_MAPS_API_URL = "http://localhost:3000"
 TOKEN = "TOKEN"
