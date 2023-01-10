@@ -37,7 +37,7 @@ print(electricity_map.get_co2_forecast("DE"))
 ### Installing required pip packages
 
 ```bash
-python pip install -r requirenments.txt
+python pip install -r requirements.txt
 pre-commit install -t pre-push
 ```
 
