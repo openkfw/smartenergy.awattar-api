@@ -19,4 +19,4 @@ author: ""
 
 ## Versions (please complete the following information):\*\*
 
-- electricity_maps_api
+- green_energy_api

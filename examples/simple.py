@@ -1,13 +1,13 @@
-"""Electricity Maps API examples"""
+"""Green Energy API examples"""
 
 import os
 
 from dotenv import load_dotenv
-from electricity_maps_api.electricity_maps_api import ElectricityMapApi
+from green_energy_api.green_energy_api import GreenEnergyApi
 
 load_dotenv()
 
-electricity_map = ElectricityMapApi(
-        os.getenv("ELECTRICITY_MAPS_API_URL"),
-        os.getenv("ELECTRICITY_MAPS_API_TOKEN"))
-print(electricity_map.get_co2_forecast("DE"))
+green_energy = GreenEnergyApi(
+    os.getenv("ENERGY_DATA_API_URL"),
+)
+print(green_energy.get_electricity_price())
