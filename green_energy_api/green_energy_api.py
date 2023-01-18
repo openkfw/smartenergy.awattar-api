@@ -36,6 +36,7 @@ class GreenEnergyApi:
             return {"success": False, "msg": "Request couldn't connect or timed out"}
 
     def get_electricity_price(self) -> dict:
+        """Get the energy prices from a public api"""
         response = self.__query_avattar_api("v1/marketdata")
 
         if response is None or response.get("success") is False:

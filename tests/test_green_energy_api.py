@@ -29,7 +29,7 @@ ENERGY_PRICE_RESPONSE_DE = {
 }
 
 
-ENERGY_DATA_API_URL = "https://api.awattar.de",
+ENERGY_DATA_API_URL = "https://api.awattar.de"
 
 
 # pylint: disable=unused-argument
