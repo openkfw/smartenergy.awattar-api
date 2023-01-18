@@ -1,12 +1,13 @@
 """Test cases for the validation module"""
 import pytest
 
-from electricity_maps_api.validations import validate_empty_string
+from green_energy_api.validations import validate_empty_string
 
 
 def test_validation_ok() -> None:
     """Test if a non empty string is valid, thus returns None"""
     assert validate_empty_string("test", "hello") is None
+
 
 def test_validation_error() -> None:
     """Test if an empty string raises an error"""

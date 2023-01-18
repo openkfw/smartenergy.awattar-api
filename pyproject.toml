@@ -16,9 +16,9 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 dependencies = ["requests >= 2.27.1"]
-description = "A python library to access the Electricity Maps API."
-keywords = ["electricity-maps", "kfw", "api", "cloud"]
-name = "smart_energy.electricity_maps_api"
+description = "A python library to access the Awattar Energy Price API."
+keywords = ["green_energy", "kfw", "api", "cloud"]
+name = "smart_energy.green_energy_api"
 readme = "README.md"
 requires-python = ">=3.7"
 version = "0.1.0"
@@ -27,5 +27,5 @@ version = "0.1.0"
 dev = ["black", "pytest", "python-dotenv", "pre-commit"]
 
 [project.urls]
-"Bug Tracker" = "https://github.com/openkfw/smart_energy.electricity_maps_api/issues"
-"Homepage" = "https://github.com/openkfw/smart_energy.electricity_maps_api"
+"Bug Tracker" = "https://github.com/openkfw/smart_energy.green_energy_api/issues"
+"Homepage" = "https://github.com/openkfw/smart_energy.green_energy_api"
