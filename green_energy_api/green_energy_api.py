@@ -23,10 +23,8 @@ class GreenEnergyApi:
     def __query_avattar_api(self, path: str) -> dict:
         try:
             url = f"{self.host}/{path}"
-            print(url)
 
             status_request = requests.get(url, timeout=self.timeout)
-            print(status_request)
             status = status_request.json()
             return status
         except (
