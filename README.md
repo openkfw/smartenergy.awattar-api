@@ -2,7 +2,7 @@
 
 A python library to access the Awattar Api. Refer also to the [Awattar Energy Price API](https://www.awattar.de/). This repo provides functionality for:
 
-- Getting Energy Price forecast forecast information.
+- Getting Energy Price forecast information.
 
 ## Installing the library locally
 

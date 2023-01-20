@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="electricity_maps_api",
+    name="green_energy_api",
     version="0.2.0",
     author="",
     author_email="",
@@ -18,11 +18,11 @@ setup(
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",
-    provides=["electricity_maps_api"],
+    provides=["green_energy_api"],
     install_requires=["requests"],
     setup_requires=["wheel"],
 )
