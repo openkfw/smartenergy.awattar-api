@@ -22,7 +22,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",
-    provides=["green_energy_api"],
+    provides=["green_energy"],
     install_requires=["requests"],
     setup_requires=["wheel"],
 )
