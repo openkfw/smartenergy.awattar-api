@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="green_energy_api",
+    name="green_energy",
     version="0.2.0",
     author="",
     author_email="",
