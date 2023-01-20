@@ -1,4 +1,4 @@
-# green_energy_api
+# green_energy
 
 A python library to access the Awattar Api. Refer also to the [Awattar Energy Price API](https://www.awattar.de/). This repo provides functionality for:
 
