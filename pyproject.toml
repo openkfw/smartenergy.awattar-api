@@ -24,7 +24,7 @@ requires-python = ">=3.7"
 version = "0.2.0"
 
 [project.optional-dependencies]
-dev = ["black", "pytest", "python-dotenv", "pre-commit"]
+dev = ["black", "pylint", "pytest", "python-dotenv", "pre-commit"]
 
 [project.urls]
 "Bug Tracker" = "https://github.com/openkfw/smartenergy.awattar-api/issues"
