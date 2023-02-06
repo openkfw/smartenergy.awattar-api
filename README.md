@@ -1,4 +1,4 @@
-# green_energy
+# Awattar API
 
 A python library to access the Awattar Api. Refer also to the [Awattar Energy Price API](https://www.awattar.de/). This repo provides functionality for:
 
@@ -23,13 +23,13 @@ ENERGY_DATA_API_URL="https://api.awattar.de" python3 examples/simple.py
 or
 
 ```python
-from green_energy_api.green_energy_api import GreenEnergyApi
+from awattar_api.awattar_api import AwattarApi
 
-green_energy_api = GreenEnergyApi('provide_api_url')
+awattar_api = AwattarApi('provide_api_url')
 # or you can define additional optional parameters
-# green_energy_api = GreenEnergyApi('provide_api_url', timeout=10)
+# awattar_api = AwattarApi('provide_api_url', timeout=10)
 
-print(green_energy_api.get_electricity_price())
+print(awattar_api.get_electricity_price())
 ```
 
 ## Development
@@ -44,7 +44,7 @@ pre-commit install -t pre-push
 ### Linting
 
 ```bash
-pylint green_energy_api/*.py tests/*.py examples/*.py
+pylint awattar_api/*.py tests/*.py examples/*.py
 ```
 
 ### Unit testing
@@ -56,5 +56,5 @@ pytest tests/*.py
 pytest -o log_cli=true
 
 # code coverage
-pytest --durations=10 --cov-report term-missing --cov=green_energy_api tests
+pytest --durations=10 --cov-report term-missing --cov=awattar_api tests
 ```

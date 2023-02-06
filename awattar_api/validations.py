@@ -1,4 +1,5 @@
-"""Green Energy validations module"""
+"""Awattar API validations module"""
+
 
 def validate_empty_string(val: str, entity_name: str) -> None:
     """

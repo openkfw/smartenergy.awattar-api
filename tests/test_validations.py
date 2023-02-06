@@ -1,7 +1,7 @@
 """Test cases for the validation module"""
 import pytest
 
-from green_energy_api.validations import validate_empty_string
+from awattar_api.validations import validate_empty_string
 
 
 def test_validation_ok() -> None:

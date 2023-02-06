@@ -17,15 +17,15 @@ classifiers = [
 ]
 dependencies = ["requests >= 2.27.1"]
 description = "A python library to access the Awattar Energy Price API."
-keywords = ["green_energy", "kfw", "api", "cloud"]
-name = "green_energy"
+keywords = ["awattar", "kfw", "api", "cloud"]
+name = "awattar"
 readme = "README.md"
 requires-python = ">=3.7"
-version = "0.1.0"
+version = "0.2.0"
 
 [project.optional-dependencies]
-dev = ["black", "pytest", "python-dotenv", "pre-commit"]
+dev = ["black", "pylint", "pytest", "python-dotenv", "pre-commit"]
 
 [project.urls]
-"Bug Tracker" = "https://github.com/openkfw/smart_energy.green_energy_api/issues"
-"Homepage" = "https://github.com/openkfw/smart_energy.green_energy_api"
+"Bug Tracker" = "https://github.com/openkfw/smartenergy.awattar-api/issues"
+"Homepage" = "https://github.com/openkfw/smartenergy.awattar-api"
