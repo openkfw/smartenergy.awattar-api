@@ -1,13 +1,13 @@
-"""Green Energy API examples"""
+"""Awattar API API examples"""
 
 import os
 
 from dotenv import load_dotenv
-from green_energy_api.green_energy_api import GreenEnergyApi
+from awattar_api.awattar_api import AwattarApi
 
 load_dotenv()
 
-green_energy = GreenEnergyApi(
+awattar = AwattarApi(
     os.getenv("ENERGY_DATA_API_URL"),
 )
-print(green_energy.get_electricity_price())
+print(awattar.get_electricity_price())

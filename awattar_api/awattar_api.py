@@ -10,9 +10,9 @@ from .validations import validate_empty_string
 
 
 # pylint: disable=too-few-public-methods
-class GreenEnergyApi:
+class AwattarApi:
     """
-    Class providing methods for getting CO2 forecast for a zone.
+    Class providing methods for getting price forecast for a zone.
     """
 
     def __init__(self, host: str, timeout: int = 5) -> None:
