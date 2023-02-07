@@ -18,7 +18,7 @@ classifiers = [
 dependencies = ["requests >= 2.27.1"]
 description = "A python library to access the Awattar Energy Price API."
 keywords = ["awattar", "kfw", "api", "cloud"]
-name = "awattar"
+name = "smart-energy.awattar-api"
 readme = "README.md"
 requires-python = ">=3.7"
 version = "0.2.0"
